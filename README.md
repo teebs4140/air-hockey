@@ -14,7 +14,9 @@ A fast-paced, browser-based air hockey game built with HTML5 Canvas and vanilla 
 
 ## Demo
 
-Open `index.html` in a modern web browser to start playing immediately. No installation or build process required!
+🎮 **[Play Now on GitHub Pages](https://teebs4140.github.io/air-hockey/)**
+
+Or open `index.html` locally in a modern web browser to start playing immediately. No installation or build process required!
 
 ## How to Play
 
