@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Air Hockey Duel</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="game-wrapper">
+    <header class="hud">
+      <div class="scoreboard">
+        <span class="label">Player 1</span>
+        <span id="score-left" class="score">0</span>
+      </div>
+      <div class="status" id="status">Press Space to start</div>
+      <div class="scoreboard">
+        <span class="label">Player 2</span>
+        <span id="score-right" class="score">0</span>
+      </div>
+    </header>
+    <canvas id="rink" width="900" height="600" aria-label="Air hockey rink" role="img"></canvas>
+    <footer class="controls">
+      <div>
+        <strong>Player 1:</strong> `W` / `S`
+      </div>
+      <div>
+        <strong>Player 2:</strong> Arrow Up / Arrow Down
+      </div>
+      <div>
+        <strong>Pause/Resume:</strong> Space
+      </div>
+      <div>
+        <strong>Reset:</strong> `R`
+      </div>
+    </footer>
+  </main>
+  <div id="clean-hit-banner" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
